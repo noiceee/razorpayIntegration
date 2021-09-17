@@ -1,0 +1,43 @@
+html{
+    height: 100%;
+}
+body{
+    text-align: center;
+    background-color: rgb(255, 226, 231);
+    text-decoration: none;
+    background-image: url("images/payment-success.png");
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.thankyou{
+    color: rgb(255, 161, 161);
+    font-size: 100px;
+    position: absolute;
+    font-weight: 600;
+    top: 150px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: fit-content;
+    font-family: 'Sacramento', cursive;
+}
+.main-link{
+    color: rgb(255, 157, 234);
+    font-size: 30px;
+    position: absolute;
+    font-weight: 600;
+    top: 310px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: fit-content;
+    font-family: 'Montserrat', sans-serif;
+}
+.main-link:hover{
+    text-decoration: none;
+    color: rgb(255, 141, 217);
+}

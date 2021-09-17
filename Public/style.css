@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+.top-section{
+    height: 100%;
+    background-image: url("images/donate.jpg");
+    background-size: cover;
+    background-position: left 0px bottom 0px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/* css for navbar */
+.navbar{
+    padding: 4% 12% 3%;
+    background-color: rgba(255, 255, 255, 0) !important;
+    text-align: center;
+    z-index: 1;
+    /* border-bottom: 1px solid rgb(236, 236, 236); */
+}
+.navbar-brand{
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+}
+li{
+    margin: 0px 7px;
+}
+.nav-link{
+    font-weight: 600;
+    font-size: 18px;
+}
+/* css for body */
+.payment-section{
+    height: auto;
+    padding: 0% 12% 1%;
+    line-height: 2;
+}
+.to-left{
+    margin-top: 90px;
+    width: 350px;
+    font-family: 'Montserrat', sans-serif;
+}
+.to-left h1{
+    font-size: 80px;
+    font-weight: 600;
+}
+.to-left p{
+    font-size: 16px;
+}
+.btn{
+    margin-top: 20px;
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(90deg, rgb(255, 169, 169), rgb(255, 158, 158));
+    border: none;
+    color: rgb(255, 255, 255);
+}
+.btn:hover{
+    color: rgb(255, 255, 255);
+    background:linear-gradient(90deg, rgb(255, 141, 141), rgb(255, 180, 180));
+}
+/* .amountInput{
+    width: 150px;
+} */
+@media screen and (max-width:900px) {
+    .navbar-brand{
+        font-size: 25px;
+    }
+    .to-left h1{
+        font-size: 60px;
+    }
+    .to-left p{
+        width: 80%;
+    }
+    ul{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .top-section{
+        height: 80%;
+    }
+}
+form{
+    display: inline-block;
+    vertical-align: -25px;
+}
